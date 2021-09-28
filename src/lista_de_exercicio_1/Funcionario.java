@@ -32,8 +32,8 @@ public class Funcionario {
 		return funcao;
 	}
 
-	public void setFuncao(String funcionario) {
-		this.funcao = funcionario;
+	public void setFuncao(String funcao) {
+		this.funcao = funcao;
 	}
 
 	public double getSalario() {
