@@ -14,9 +14,11 @@ public class Transporte {
 		this.capacidadeTanque = _capacidadeTanque;
 		this.quantCombustivel = _quantCombustivel;
 	}
+	
 	public double mover(double _kmPercorridos) {
 		return this.quilometragem += _kmPercorridos;
 	}
+	
 	public double abastecer(double _litros) {
 		
 		if (capacidadeTanque > (quantCombustivel + _litros) ){
@@ -31,33 +33,43 @@ public class Transporte {
 		return "Transporte [marca=" + marca + ", modelo=" + modelo + ", quilometragem=" + quilometragem
 				+ ", capacidadeTanque=" + capacidadeTanque + ", quantCombustivel=" + quantCombustivel + "]";
 	}
+	
 	public String getMarca() {
 		return marca;
 	}
+	
 	public void setMarca(String marca) {
 		this.marca = marca;
 	}
+	
 	public String getModelo() {
 		return modelo;
 	}
+	
 	public void setModelo(String modelo) {
 		this.modelo = modelo;
 	}
+	
 	public double getQuilometragem() {
 		return quilometragem;
 	}
+	
 	public void setQuilometragem(double quilometragem) {
 		this.quilometragem = quilometragem;
 	}
+	
 	public double getCapacidadeTanque() {
 		return capacidadeTanque;
 	}
+	
 	public void setCapacidadeTanque(double capacidadeTanque) {
 		this.capacidadeTanque = capacidadeTanque;
 	}
+	
 	public double getQuantCombustivel() {
 		return quantCombustivel;
 	}
+	
 	public void setQuantCombustivel(double quantCombustivel) {
 		this.quantCombustivel = quantCombustivel;
 	}
